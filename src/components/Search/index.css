@@ -1,0 +1,64 @@
+.search-container {
+  padding: 20px;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.search-button {
+  padding: 8px 15px;
+  background: #0b69ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 15px;
+}
+
+.movie-card {
+  text-decoration: none;
+  color: inherit;
+  background: #111;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-title {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.movie-rating {
+  font-size: 12px;
+  color: gold;
+}

@@ -1,0 +1,41 @@
+.upcoming-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1e22;
+}
+
+.upcoming-movies-container {
+  padding: 20px 80px;
+}
+
+.upcoming-heading {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+.upcoming-movies-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: flex-start;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.error-container {
+  text-align: center;
+  color: red;
+  padding: 20px;
+}
